@@ -1,0 +1,40 @@
+@media (max-width: 1023px) {
+
+    html{
+      font-size: 50%;
+    }
+    .navbar-btn{
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .navbar__logo-img2{
+      display: block;
+    }
+    .header__navbar{
+      display: none;
+    }
+    .header__info{
+      display: none;
+    }
+   .parallax{
+       height: 900px;
+   }
+   .about-company-overview{
+     flex-direction: column;
+   }
+   .about-company-content-img{
+     margin: 0 auto 20px auto;
+   }
+   .about-company-soulof {
+    flex-direction: column;
+  }
+  .founder-info1{
+    text-align: center;
+  }
+  .layout-contact-wrapper{
+    display: none;
+  }
+  }
